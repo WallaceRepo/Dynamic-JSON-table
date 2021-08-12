@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+  <h4>Write a program Employee System UI which does the following:</h4>
+
+  <h4>Sample JSON:</h4>  
+    <ul>
+      <li>let json = {"employees":[ </li>
+     <li> {"name":"John Smith", "email":"john.smith@xyz.com", "Title":"Finance Staff 1", "Dept" : "Finance", "Location" : "San Jose", "Mgr", "F"},</li>  
+     <li> {"name":"Bob Ford", "email":"bob.ford@xyz.com", "Title":"HR Assistant", "Dept" : "Human Resources", "Location" : "Sunnyvale", "Mgr", "F"},</li>   
+     <li> {"name":"Tim Wray", "email":"tim.wray@xyz.com", "Title":"Vice President", "Dept" : "R&D", "Location" : "San Jose", "Mgr", "T"},</li>   
+     <li>{"name":"Don Smith", "email":"don.smith@xyz.com", "Title":"Engineering Manager", "Dept" : "R&D", "Location" : "San Jose", "Mgr", "T"},</li>    
+     <li> {"name":"Kelly Doe", "email":"kelly.doe@xyz.com", "Title":"Software Engineer", "Dept" : "R&D", "Location" : "San Jose", "Mgr", "F"},</li>   
+    <li> ]}</li>
+    </ul>
+<p>
+    Write a program using HTML, JQUERY, Angular(f you want to) and display the list of existing employees in a table
+where you can add, edit, or delete the employee (You can only edit title, dept, and location)
+Any changes should be reflect in the existing json
+If the mgr field is T, then in the table, there should be link available, e.g: www.google.com. Otherwise, N/A should be  display in that field.
+
+
+
+</p>   
+<hr class="rounded">
+<h3>Dynamic Table in vanilla JS</h3>
+<p>Title, Dept, Location fields are only editable. Enter cursor to edit those field, your edited cells values will automically change JSON sample and will be seen on the table. Double-click on the row you want to delete, it will be deleted from JSON sample and table. To add New Employee, click on "Add New Row" button to incert new row in the table. After filling table, click on "Save new Row" button to add it to the JSON and to see the change on table</p>
+<h4>Focused on table cell editing easier by simpler and fewer interaction to achieve a goal. Iteration in code is least as possible, avoiding wrapped iteration as much as possible, Time/Space complexity. Also JSON request for update invokes the least times or just after done editing to prevent multiple browser render and further server xhr requests. Instead of incerting "delete" button on each row, simply Double-click on the row will delete the row.</h4>
+<p> Further improvements to add to this table: Save only adds 1 new row currently. It needs to check if new row is more than one, then add all of it. Save new row saves empty row currently, it needs to check if all cell is filled and able to save multiple new rows. Happy Coding!! </p>
+</body>
+</html>
