@@ -1,5 +1,5 @@
-# JSON-Dynamic-Table-in-Vanilla-Javascript- https://wallacerepo.github.io/JSON-Dynamic-Table-in-Vanilla-Javascript-/
-Here is the Sophia's way of solution to the dynamic table that displays data from JSON. Table is editable, add new row, delete any row, and all will be done in JSON as well. 
+# JSON-Dynamic-Table-in-Vanilla-Javascript-
+Here is the Sophia's way of solution to the dynamic table that displays data from JSON. Table is editable, add new row, delete any row, and all will be done in JSON as well. Vsist to https://wallacerepo.github.io/JSON-Dynamic-Table-in-Vanilla-Javascript-/ to see this table. 
 Clone the repo and open up index.html in your browser of choice. Leave a comment for suggestions. Thank you!
 
   Write a program Employee System UI which does the following:
