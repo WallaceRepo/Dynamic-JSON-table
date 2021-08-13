@@ -19,7 +19,7 @@ where you can add, edit, or delete the employee (You can only edit title, dept, 
 Any changes should be reflect in the existing json. If the mgr field is T, then in the table, there should be link available, e.g: www.google.com. Otherwise, N/A should be  display in that field.
   
 ****************************************************************************************************************************************
-====== Dynamic Table in vanilla JS ===========================================================================
+                                          Dynamic Table in vanilla JS
 Title, Dept, Location fields are only editable. Enter cursor to edit those field, your edited cells values will automically change JSON sample and will be seen on the table. 
 Double-click on the row you want to delete, it will be deleted from JSON sample and table. To add New Employee, click on "Add New Row" button to incert new row in the table.
 After filling table, click on "Save new Row" button to add it to the JSON and to see the change on table.
