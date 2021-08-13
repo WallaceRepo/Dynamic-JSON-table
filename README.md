@@ -12,7 +12,7 @@ Clone the repo and open up index.html in your browser of choice. Leave a comment
      {"name":"Don Smith", "email":"don.smith@xyz.com", "Title":"Engineering Manager", "Dept" : "R&D", "Location" : "San Jose", "Mgr", "T"},    
      {"name":"Kelly Doe", "email":"kelly.doe@xyz.com", "Title":"Software Engineer", "Dept" : "R&D", "Location" : "San Jose", "Mgr", "F"}, 
     ]}
-    </ul>
+    
     
 Write a program using HTML, JQUERY, Angular(f you want to) and display the list of existing employees in a table
 where you can add, edit, or delete the employee (You can only edit title, dept, and location)
