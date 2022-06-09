@@ -1,5 +1,5 @@
-# [My solution ](https://wallacerepo.github.io/JSON-Dynamic-Table-in-Vanilla-Javascript) 
-## Creating Dynamic / Editable Table using JS, HTML and JSON data. A practice for Design Pattern, HTML and JSON.
+# [My solution for dynamic json table ](https://wallacerepo.github.io/JSON-Dynamic-Table-in-Vanilla-Javascript) 
+## Create Dynamic / Editable Table using JS, HTML and JSON data. A practice for Design Pattern, HTML and JSON.
 ```
 Assignment:
   Write a program Employee System UI which does the following:
