@@ -1,4 +1,4 @@
-# [My solution for dynamic json table ](https://wallacerepo.github.io/JSON-Dynamic-Table-in-Vanilla-Javascript) 
+# [My solution for dynamic json table ](https://wallacerepo.github.io/Dynamic-JSON-table/) or https://wallacerepo.github.io/Dynamic-JSON-table/
 ## Create Dynamic / Editable Table using JS, HTML and JSON data. A practice for Design Pattern, HTML and JSON.
 ```
 Assignment:
