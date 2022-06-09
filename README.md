@@ -1,7 +1,7 @@
-# JSON-Dynamic-Table-in-Vanilla-Javascript-
-Here is the Sophia's way of solution to the dynamic table that displays data from JSON. Table is editable, add new row, delete any row, and all will be done in JSON as well. Vsist to https://wallacerepo.github.io/JSON-Dynamic-Table-in-Vanilla-Javascript-/ to see this table. 
-Clone the repo and open up index.html in your browser of choice. Leave a comment for suggestions. Thank you!
-*********************************************************************************************************
+# [My solution ](https://wallacerepo.github.io/JSON-Dynamic-Table-in-Vanilla-Javascript-/ to see this table) 
+## Creating Dynamic / Editable Table using JS, HTML and JSON data. A practice for Design Pattern, HTML and JSON.
+```
+Assignment:
   Write a program Employee System UI which does the following:
 
      Sample JSON:
@@ -17,15 +17,11 @@ Clone the repo and open up index.html in your browser of choice. Leave a comment
 Write a program using HTML, JQUERY, Angular(f you want to) and display the list of existing employees in a table
 where you can add, edit, or delete the employee (You can only edit title, dept, and location)
 Any changes should be reflect in the existing json. If the mgr field is T, then in the table, there should be link available, e.g: www.google.com. Otherwise, N/A should be  display in that field.
+  ```
+              
+
+Title, Dept, Location fields are only editable. The changes made in those feild will reflect on the JSON.
+ Delete row from the table with double-click. it will update JSON. 
+ Add new row to the table then Save. it will update JSON.
   
-****************************************************************************************************************************************
-                                          Dynamic Table in vanilla JS
-Title, Dept, Location fields are only editable. Enter cursor to edit those field, your edited cells values will automically change JSON sample and will be seen on the table. 
-Double-click on the row you want to delete, it will be deleted from JSON sample and table. To add New Employee, click on "Add New Row" button to incert new row in the table.
-After filling table, click on "Save new Row" button to add it to the JSON and to see the change on table.
-Focused on table cell editing easier by simpler and fewer interaction to achieve a goal. Iteration in code is least as possible, avoiding wrapped iteration as much as
-possible, Time/Space complexity. Also JSON request for update invokes the least times or just after done editing to prevent multiple browser render and further server 
-xhr requests. Instead of incerting "delete" button on each row, simply Double-click on the row will delete the row.
-Further improvements to add to this table: Save only adds 1 new row currently. It needs to check if new row is more than one, then add all of it. 
-Save new row saves empty row currently, it needs to check if all cell is filled and able to save multiple new rows. Happy Coding!! 
 
